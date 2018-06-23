@@ -1,0 +1,59 @@
+.headings-out{
+    color: #4A4A4A;
+    font-family: Lato;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 24px;
+    
+
+}
+
+.headings{
+    margin: 2% 0;
+    color: #4A4A4A;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 19px;
+}
+
+.small-headings{
+    color: #9b9b9b;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 15px;
+    text-transform: uppercase;
+    margin: 5px 0 10px
+}
+
+.content-box{
+    padding-bottom: 40px;
+}
+.content{
+    color: #4A4A4A;
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.line {
+    border-bottom: 1px solid #cbcbcb;
+}
+
+.padding-40{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.italics-content{font-family: Lato;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 25px;
+}
+
+
+.leftSectionBox{
+    
+    border: rgb(207, 203, 203) 1px solid ;
+}

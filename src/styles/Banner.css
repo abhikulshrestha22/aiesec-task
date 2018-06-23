@@ -1,0 +1,25 @@
+.banner{
+    height: 50vh;
+    background:url('../images/k.jpeg') no-repeat ;
+    /* background:#919497; */
+    display: table;
+  }
+
+  .banner-box{
+    display: table;
+    height: 100%;
+    color: antiquewhite;
+    text-align: center;
+    top:20vh;
+    
+  }
+  
+  .banner-text{
+    
+    vertical-align: middle;
+    display: table-cell;
+  }
+
+  .titleName{
+    padding-top: 20px;
+  }
