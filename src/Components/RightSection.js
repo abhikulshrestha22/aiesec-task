@@ -6,14 +6,15 @@ class RightSection extends React.Component{
 
     render(){
         return (
+            
             <div className="rightSectionBox col-4">
             <div className="sticky">
             <h2 className="padding-10">Global Talent</h2>
-                <div className="infoContainer">
+                <div className="info-container">
                     <h4 className="right-section-heading">Background</h4>
                     <h5 className="underlined-text">{this.props.opp.backgrounds!=null?this.props.opp.backgrounds[0].name:''}</h5>
                 </div>
-                <div className="infoContainer">
+                <div className="info-container">
                     <div className="row">
                         <div className="col-4">
                             <h4 className="right-section-heading">Earliest Start Date</h4>

@@ -1,4 +1,25 @@
 .navbar-custom{
     background: rgb(85, 85, 240) !important;
+    color:white;
+    padding-top:0px;
+    padding-bottom: 0px;
     
+}
+
+.nav-link{
+    margin: 10px;
+    color:white !important;
+}
+
+
+.explore-btn{
+    border-color: white;
+    background: white;
+    color:blue !important;
+}
+
+.explore-btn:hover{
+    color:white !important;
+    background: blue;
+
 }

@@ -1,3 +1,35 @@
-.dummy{
-    height:100px;
+.video-box{
+    margin-top:20px;
+    margin-bottom:20px;
+    webkit-box-shadow: 6px 4px 10px 0 rgba(122, 122, 122, 0.3);
+    box-shadow: 6px 4px 10px 0 rgba(122, 122, 122, 0.3);
+
+}
+
+.embed-responsive{
+    padding-left: 0px;
+    padding-right: 0px ;
+}
+
+.video-box-text{
+    margin-top:20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.edit-button-box{
+    position: fixed;
+    bottom: 5%;
+    right:5%;
+
+    z-index:2;
+}
+
+.edit-button{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
 }
