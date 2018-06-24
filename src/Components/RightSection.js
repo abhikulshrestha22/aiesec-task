@@ -7,7 +7,7 @@ class RightSection extends React.Component{
     render(){
         return (
             <div className="rightSectionBox col-4">
-            <div className="">
+            <div className="sticky">
             <h2 className="padding-10">Global Talent</h2>
                 <div className="infoContainer">
                     <h4 className="right-section-heading">Background</h4>

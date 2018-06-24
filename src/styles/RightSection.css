@@ -20,15 +20,16 @@
 }
 
 .rightSectionBox{
-    border: rgb(207, 203, 203) 1px solid ;
+    
+    padding-left: 0px;
+    padding-right: 0px;
+    
+    top:0;
 }
 
-.rightSectionSticky{
-    position: fixed;
-    top: 0;
-    margin-top: 60px;
-    right: 10%;
-    width: 435px;
-    height: auto;
-    z-index: 100;
+.sticky{
+    border: rgb(207, 203, 203) 1px solid ;
+    position: sticky;
+    position: -webkit-sticky;
+    top:0
 }

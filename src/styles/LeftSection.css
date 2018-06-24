@@ -54,6 +54,12 @@
 
 
 .leftSectionBox{
+    padding-left: 0px;
+    padding-right: 0px;
     
-    border: rgb(207, 203, 203) 1px solid ;
+}
+
+.margin-side-0{
+    margin-left: 0px;
+    margin-right: 0px;
 }

@@ -47,7 +47,7 @@ class LeftSection extends React.Component{
             <div className=" headings-out line">
                 Pre Requisites
             </div>
-            <div className="row padding-10">
+            <div className="margin-side-0 row padding-10">
                 <div className="col-2">
                     <div className="headings">
                         Backgrounds
@@ -63,7 +63,7 @@ class LeftSection extends React.Component{
                     </div>
                 </div>
             </div>
-            <div className="row padding-10">
+            <div className="margin-side-0 row padding-10">
                 <div className="col-2">
                     <div className="headings">
                         Skills
@@ -80,7 +80,7 @@ class LeftSection extends React.Component{
                 </div>
                 
             </div>
-            <div className="row padding-10">
+            <div className="margin-side-0 row padding-10">
                 <div className="col-2">
                     <div className="headings">
                         Nationalities
@@ -97,7 +97,7 @@ class LeftSection extends React.Component{
                 </div>
                 
             </div>
-            <div className="row padding-10">
+            <div className="margin-side-0 row padding-10">
                 <div className="col-2">
                     <div className="headings">
                         Languages
@@ -114,7 +114,7 @@ class LeftSection extends React.Component{
                 </div>
                 
             </div>
-            <div className="row padding-10">
+            <div className="margin-side-0 row padding-10">
                 <div className="col-2">
                     <div className="headings">
                         Study Levels
@@ -136,7 +136,7 @@ class LeftSection extends React.Component{
             <div className=" headings-out line">
                 Selection Process
             </div>
-            <div className="row padding-10">
+            <div className="margin-side-0 row padding-10">
                 <div className="col-2">
                     testing
 
@@ -148,7 +148,7 @@ class LeftSection extends React.Component{
             <div className=" headings-out line">
                 Visa and Logistics
             </div>
-            <div className="row padding-10">
+            <div className="margin-side-0 row padding-10">
                 <div className="col-2">
                     <div className="headings">
                         Working Hours
@@ -165,7 +165,7 @@ class LeftSection extends React.Component{
                     <div className="italics-content">Not on weekends</div>
                 </div>
             </div>
-            <div className="row padding-10">
+            <div className="margin-side-0 row padding-10">
                 <div className="col-2">
                     <div className="headings">
                         Logistics
@@ -175,8 +175,8 @@ class LeftSection extends React.Component{
                 <div className= "content-box col-10  line">
                     
                     <div className="content ">
-                    <i class="fas fa-check"></i>
-                    <i class="fas fa-times"></i>
+                    <i className="fas fa-check"></i>
+                    <i className="fas fa-times"></i>
                     </div>
                     
                 </div>
@@ -184,7 +184,7 @@ class LeftSection extends React.Component{
             </div>
 
             
-            <div className="row padding-10">
+            <div className="margin-side-0 row padding-10">
                 <div className="col-2">
                     <div className="headings">
                         Visa
@@ -217,7 +217,7 @@ class LeftSection extends React.Component{
             </div>
 
 
-            <div className="row padding-10">
+            <div className="margin-side-0 row padding-10">
                 <div className="col-2">
                     <div className="headings">
                         Health Insurance
@@ -232,7 +232,7 @@ class LeftSection extends React.Component{
                 </div>
             </div>
 
-            <div className="row padding-10">
+            <div className="margin-side-0 row padding-10">
                 <div className="col-2">
                     <div className="headings">
                         Host AIESEC office
@@ -248,7 +248,7 @@ class LeftSection extends React.Component{
             </div>
 
 
-            <div className="row padding-10">
+            <div className="margin-side-0 row padding-10">
                 <div className="col-2">
                     <div className="headings">
                        Location
@@ -260,7 +260,7 @@ class LeftSection extends React.Component{
                     
                 </div>
             </div>
-            <div className="row padding-10">
+            <div className="margin-side-0 row padding-10">
                 <div className="col-2">
                     <div className="headings">
                        Testimonials
