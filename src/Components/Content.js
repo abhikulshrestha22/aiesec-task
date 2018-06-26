@@ -1,6 +1,7 @@
 import React from 'react';
 import RightSection from './RightSection';
 import LeftSection from './LeftSection';
+import EditPage from './EditPage';
 
 import '../styles/Content.css';
 
@@ -10,11 +11,7 @@ class Content extends React.Component{
         return(
             
             <div className="container">
-            <div class="edit-button-box">
-              <button className="edit-button btn btn-primary">
-                Edit
-              </button>
-            </div>
+          <EditPage saveOpp={this.props.saveOpp} oppLocal={this.props.oppLocal} opp={this.props.opp} changeOppLocal = {this.props.changeOppLocal}/>  
           <div className="row">
             <LeftSection opp={this.props.opp}/>
             <RightSection opp={this.props.opp}/>
