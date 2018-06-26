@@ -91,8 +91,7 @@ class App extends Component {
     saveOpp=()=>{
      
       console.log("in func saveOpp");
-      const url = 
-      'http://gisapi-web-staging-1636833739.eu-west-1.elb.amazonaws.com/v2/opportunities/6124?access_token=dd0df21c8af5d929dff19f74506c4a8153d7acd34306b9761fd4a57cfa1d483c'
+      const url = 'http://gisapi-web-staging-1636833739.eu-west-1.elb.amazonaws.com/v2/opportunities/6124?access_token=dd0df21c8af5d929dff19f74506c4a8153d7acd34306b9761fd4a57cfa1d483c'
       const param_update_title = "opportunity[title]=" + this.state.oppLocal.title;
       const param_update_applications_close_date="opportunity[applications_close_date]" + this.state.oppLocal.applications_close_date;
       const param_update_earliest_start_date="opportunity[earliest_start_date]"+ this.state.oppLocal.earliest_start_date;
