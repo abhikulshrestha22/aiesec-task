@@ -4,6 +4,15 @@ import '../styles/RightSection.css';
 
 class RightSection extends React.Component{
 
+
+    convertDate=(inputFormat) =>{
+        if(inputFormat!=undefined){
+        inputFormat = inputFormat.split('T')[0];}
+        function pad(s) { return (s < 10) ? '0' + s : s; }
+        var d = new Date(inputFormat);
+        return [pad(d.getDate()), pad(d.getMonth()+1), d.getFullYear()].join('/');
+      }
+
     render(){
         return (
             
@@ -18,12 +27,12 @@ class RightSection extends React.Component{
                     <div className="row">
                         <div className="col-4">
                             <h4 className="right-section-heading">Earliest Start Date</h4>
-                            <h5 className="underlined-text">{this.props.opp.earliest_start_date}</h5>
+                            <h5 className="underlined-text">{this.convertDate(this.props.opp.earliest_start_date)}</h5>
                    
                         </div>
                         <div className="col-4">
                             <h4 className="right-section-heading">Latest End Date</h4>
-                            <h5 className="underlined-text">{this.props.opp.latest_end_date}</h5>
+                            <h5 className="underlined-text">{this.convertDate(this.props.opp.latest_end_date)}</h5>
                    
                         </div>
                         <div className="col-4">
