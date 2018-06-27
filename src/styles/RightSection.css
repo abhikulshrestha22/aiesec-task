@@ -27,9 +27,11 @@
     padding-right: 0px;
     text-align: center;
     top:0;
+    box-shadow: 6px 4px 10px 0 rgba(122, 122, 122, 0);
 }
 
 .sticky{
+    box-shadow: 5px 2px 18px #dad3d3;
     border: rgb(207, 203, 203) 1px solid ;
     position: sticky;
     position: -webkit-sticky;

@@ -31,6 +31,7 @@ class App extends Component {
     
   }
 
+  //-------------------------- Fetch the api to get the opportunity data-----------------------------//
   getDataFromApi = ()=>{
     var obj = {
       method:'GET',
@@ -58,10 +59,8 @@ class App extends Component {
   
     
 
-    // handleChange = e => {
-    //   this.setState({ opp: { description: e.target.value } });
-    // };
-    
+    //-------------------------- Change the oppLocal state when in edit page data changes-----------------------------//
+ 
     changeOppLocal = (e)=>{
       console.log("printing the obj now");
       console.log(e.target.value);
@@ -91,6 +90,8 @@ class App extends Component {
       
     }
 
+    //-------------------------- Patch sent to api and updated the local state-----------------------------//
+ 
 
     saveOpp=()=>{
      

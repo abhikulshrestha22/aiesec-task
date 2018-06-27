@@ -13,7 +13,8 @@ const customStyles = {
       marginRight           : '-50%',
       transform             : 'translate(-50%, -50%)',
       overflow              : 'scroll',
-      height                : '400px'
+      height                : '400px',
+      width               :'500px'
     }
   };
 
@@ -41,7 +42,7 @@ class EditPage extends React.Component{
 
       afterOpenModal() {
         // references are now sync'd and can be accessed.
-        this.subtitle.style.color = '#f00';
+        //this.subtitle.style.color = '#f00';
       }
     
       closeModal() {
@@ -58,7 +59,7 @@ class EditPage extends React.Component{
     render(){
         return(
             <div>
-                <div class="edit-button-box">
+                <div className="edit-button-box">
                     <button onClick={this.openModal} className="edit-button btn btn-primary">
                         Edit
                     </button>
@@ -117,19 +118,11 @@ class EditPage extends React.Component{
                         onChange={(e)=>this.props.changeOppLocal(e)}/>
                     
                 </div>
-                <input  type="submit" value="Submit" className="btn btn-primary"  />
-                <button className="btn btn-danger" onClick={this.closeModal}>close</button>
+                <input  type="submit" value="Submit" className="btn btn-primary  editpage-btn"  />
+                <button className="btn btn-danger editpage-btn" onClick={this.closeModal}>close</button>
             </form>
-          <h2 ref={subtitle => this.subtitle = subtitle}>Hello</h2>
-          <button onClick={this.closeModal}>close</button>
-          <div>I am a modal</div>
-          <form>
-            <input />
-            <button>tab navigation</button>
-            <button>stays</button>
-            <button>inside</button>
-            <button>the modal</button>
-          </form>
+          
+          
         </Modal>
                 </div>
 

@@ -260,18 +260,7 @@ class LeftSection extends React.Component{
                     
                 </div>
             </div>
-            <div className="margin-side-0 row padding-10">
-                <div className="col-2">
-                    <div className="headings">
-                       Testimonials
-                    </div>
-                </div>
-                <div className="content-box col-10  line">
-                    
-                    <SimpleMap/>
-                    
-                </div>
-            </div>
+            
 
 
             
